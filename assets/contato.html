@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="./../index.html"><strong>Página Principal</strong></a></li>
+                <li><a href="sobre.html"><strong>Sobre a clínica</strong></a></li>
+                <li><a href="horario.html"><strong>Horário de Atendimento</strong></a></li>
+                <li><a href="contato.html"><strong>Contato</strong></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img  src="contato.jpg" alt="foto médico e notebook">
+            </div>
+
+            <div class="content">
+                <fieldset title="Contatos" id="idFieldsetContatos">
+                    <legend>Contatos</legend>
+                    <div>
+                        <label>Telefone (11) 99876-1234</label><br>
+                        <label>WhatsApp (11) 99876-5432</label>
+                    </div>
+
+                    <div>
+                        <label>Email clinica@saopedro.com</label><br>
+                    </div>
+
+                </fieldset>
+
+                <fieldset id="idFieldsetEndereco">
+                    <legend>Endereço</legend>
+                    <div id="idDivFieldsetEndereco">
+                        <label>
+                            <label id="textoEndereco">Avenida Santo Expedito 1234, Bairro São Leopoldo, São Manuel-SP</label>
+                        </label>
+
+
+                        <iframe
+                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14879.629675365364!2d-43.78126794999999!3d-21.195836449999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa2207dfdcfb4d1%3A0x4c578211516c5836!2sHospital%20Regional%20de%20Barbacena%20Dr.%20Jos%C3%A9%20Am%C3%A9rico!5e0!3m2!1ses-419!2sbr!4v1682707489261!5m2!1ses-419!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </fieldset>
+
+                <fieldset title="Fale conosco">
+                    <legend>Fale conosco</legend>
+                    <div id="idFormulario">
+                        <form action="post">
+                            <label for="nome">Nome completo</label><br>
+                            <input id="nome" type="text" required /><br>
+                            <label id="email">Email</label><br>
+                            <input id="email" type="email" required /><br>
+                            <label id="assunto">Assunto</label><br>
+                            <input id="assunto" type="text" required /><br>
+                            <label>Messagem</label><br>
+                            <textarea rows="10" cols="50" placeholder="Escreva sua mensagem aqui"></textarea><br>
+                            <button type="reset">Limpar</button>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </fieldset>
+            </div>
+
+
+            <div class="footer">
+                <div>
+                    <label id="titleFooter">Contatos</label><br>
+                    <label>Celular (11) 99876-1234</label><br>
+                    <label>WhatsApp (11) 99876-5432</label><br>
+                </div>
+                <div>
+                    <label id="titleFooter">Endereço</label><br>
+                    <label>Avenida Santo Expedito 1234</label><br>
+                    <label>Bairro São Leopoldo, São Manuel-SP</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
