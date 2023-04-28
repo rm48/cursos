@@ -20,10 +20,10 @@ As páginas seguem uma estrutura semelhante a image abaixo.
 
 ![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
 
-**Menu** de navegação;
-**Header** : Imagem diferente em cada página;
-**Content**: Conteúdo de cada página.
-**Footer**: Informações de contato;
+ - **Menu** de navegação;
+ - **Header** : Imagem diferente em cada página;
+ - **Content**: Conteúdo de cada página.
+ - **Footer**: Informações de contato;
 
 ### Página Principal
 Uma breve descrição sobre a clínica.
